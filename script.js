@@ -14,8 +14,8 @@ class Person {
    * Prints a greeting message to the console.
    */
   greet() {
-    console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`);
-  }
+    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+}
 }
 
 // Define the Employee class that extends Person
